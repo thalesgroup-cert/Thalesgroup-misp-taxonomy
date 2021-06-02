@@ -1,10 +1,10 @@
-# Adding Thales Group private taxonomy
+# Adding Thales Group Taxonomy
 
     cd /var/www/MISP/app/files/taxonomies/
     mkdir thales-group-taxonomy
     cd thales-group-taxonomy
     
-Copy the [`thales-group-taxonomy/machinetag.json`](https://github.com/thalesgroup-cert/CTI-Platform-Guides/blob/main/MISP/taxonomy/thales-group-taxonomy/machinetag.json) file.
+Copy the [`thales-group-taxonomy/machinetag.json`](https://github.com/thalesgroup-cert/thalesgroup-misp-taxonomy/blob/main/MISP/taxonomy/thales-group-taxonomy/machinetag.json) file.
 
 Go to MISP Web GUI `taxonomies/index` and click on **Update Taxonomies**. The newly created taxonomy should be visible. 
 
