@@ -1,4 +1,6 @@
-# Adding Thales Group Taxonomy
+This taxonomy was designed with the aim of enabling desired sharing and preventing unwanted sharing between Thales Group security communities.
+---
+# Install the Thales Group Taxonomy
 
     cd /var/www/MISP/app/files/taxonomies/
     mkdir thales-group-taxonomy
@@ -25,7 +27,7 @@ Then, modify the **Push rules**:
     - `tlp:red`
     - `thales_group:distribution="team_eyes_only"`
 
-## Usage
+# Usage
 When using this Taxonomy, first, you need to be the more restrictive possible. Then, allow the sharing to the Thales Group Community or to specific entities.
 
 Example:
