@@ -18,7 +18,7 @@ Now, you need to activate the tags within the taxonomy:
 - Check **Required** checkbox (required for Event publication):
   - When publishing an Event, you will be required to use at least one TAG from the Thales Group taxonomy.
 
-## [MANDATORY] Filter Event publication using the taxonomy 
+### [MANDATORY] Filter Event publication using the taxonomy 
 Go to MISP Web GUI `/servers/index` and click on `Edit icon` on the **MISP Thales Group Internal Server**.
 
 Then, modify the **Push rules**:
