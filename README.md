@@ -6,7 +6,7 @@ This taxonomy was designed with the aim of enabling desired sharing and preventi
     mkdir thales-group-taxonomy
     cd thales-group-taxonomy
     
-Copy the [`thales-group-taxonomy/machinetag.json`](https://github.com/thalesgroup-cert/thalesgroup-misp-taxonomy/blob/main/thales-group-taxonomy/machinetag.json) file.
+Copy the [`thales-group-taxonomy/machinetag.json`](https://github.com/thalesgroup-cert/Thalesgroup-misp-taxonomy/blob/main/thales-group-taxonomy/machinetag.json) file.
 
 Go to MISP Web GUI `taxonomies/index` and click on **Update Taxonomies**. The newly created taxonomy should be visible. 
 
