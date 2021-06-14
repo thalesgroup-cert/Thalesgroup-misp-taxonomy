@@ -23,7 +23,7 @@ Go to MISP Web GUI `/servers/index` and click on `Edit icon` on the **MISP Thale
 
 Then, modify the **Push rules**:
   - Add to **Blocked Tags (AND NOT)**:
-    - `tlp:black`
+    - `thales_group:tlp:black`
     - `tlp:red`
     - `thales_group:distribution="team_eyes_only"`
 
