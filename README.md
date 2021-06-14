@@ -26,7 +26,15 @@ Then, modify the **Push rules**:
     - `thales_group:tlp:black`
     - `tlp:red`
     - `thales_group:distribution="team_eyes_only"`
-
+  - Add to **Allowed tags (OR)**:
+    -  `thales_group:distribution="limited_distribution"`
+    -  `thales_group:distribution="external_alliances"`
+    -  `thales_group:distribution="customers"`
+    -  `thales_group:minarm`
+    -  `thales_group:acn`
+    -  `thales_group:intercertfr`
+    -  `thales_group:to_block`
+ 
 # Usage
 When using this Taxonomy, first, you need to be the more restrictive possible. Then, allow the sharing to the Thales Group Community or to specific entities.
 
