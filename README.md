@@ -32,7 +32,7 @@ Then, modify the **Push rules**:
     -  `thales_group:distribution="customers"`
     -  `thales_group:minarm`
     -  `thales_group:acn`
-    -  `thales_group:intercertfr`
+    -  `thales_group:sigpart`
     -  `thales_group:to_block`
  
 # Usage
