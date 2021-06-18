@@ -3,10 +3,10 @@ This taxonomy was designed with the aim of enabling desired sharing and preventi
 # Install the Thales Group Taxonomy
 
     cd /var/www/MISP/app/files/taxonomies/
-    mkdir thales-group-taxonomy
-    cd thales-group-taxonomy
+    mkdir thales-group
+    cd thales-group
     
-Copy the [`thales-group-taxonomy/machinetag.json`](https://github.com/thalesgroup-cert/Thalesgroup-misp-taxonomy/blob/main/thales-group-taxonomy/machinetag.json) file.
+Copy the [`thales-group/machinetag.json`](https://github.com/thalesgroup-cert/Thalesgroup-misp-taxonomy/blob/main/thales-group-taxonomy/machinetag.json) file.
 
 Go to MISP Web GUI `taxonomies/index` and click on **Update Taxonomies**. The newly created taxonomy should be visible. 
 
