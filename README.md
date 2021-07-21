@@ -2,17 +2,10 @@ This taxonomy was designed with the aim of enabling desired sharing and preventi
 ---
 # Install the Thales Group Taxonomy
 
-    cd /var/www/MISP/app/files/taxonomies/
-    mkdir thales-group
-    cd thales-group
-    
-Copy the [`thales-group/machinetag.json`](https://github.com/thalesgroup-cert/Thalesgroup-misp-taxonomy/blob/main/thales-group/machinetag.json) file:
+The Thales Group Official taxonomy is now **installed by default** in **MISP v2.4.146**.
+For versions prior to v2.4.146, please install the taxonomy as described in the [here](#Install_from_scratch).
 
-    curl https://raw.githubusercontent.com/MISP/misp-taxonomies/main/thales_group/machinetag.json -o machinetag.json
-
-Go to MISP Web GUI `taxonomies/index` and click on **Update Taxonomies**. The newly created taxonomy should be visible. 
-
-Now, you need to activate the tags within the taxonomy:
+## [MANDATORY] Activate the taxonomy
 - Doucle click on the **thales_group taxonomy**
 - Click on **(enable)**
 - Go back to `taxonomies/index`
@@ -20,7 +13,7 @@ Now, you need to activate the tags within the taxonomy:
 - Check **Required** checkbox (required for Event publication):
   - When publishing an Event, you will be required to use at least one TAG from the Thales Group taxonomy.
 
-### [MANDATORY] Filter Event publication using the taxonomy 
+## [MANDATORY] Filter Event publication using the taxonomy 
 Go to MISP Web GUI `/servers/index` and click on `Edit icon` on the **MISP Thales Group Internal Server**.
 
 Then, modify the **Push rules**:
@@ -36,7 +29,19 @@ Then, modify the **Push rules**:
     -  `thales_group:acn`
     -  `thales_group:sigpart`
     -  `thales_group:to_block`
- 
+
+## Install from scratch
+
+    cd /var/www/MISP/app/files/taxonomies/
+    mkdir thales-group
+    cd thales-group
+    
+Copy the [`thales-group/machinetag.json`](https://github.com/thalesgroup-cert/Thalesgroup-misp-taxonomy/blob/main/thales-group/machinetag.json) file:
+
+    curl https://raw.githubusercontent.com/MISP/misp-taxonomies/main/thales_group/machinetag.json -o machinetag.json
+
+Go to MISP Web GUI `taxonomies/index` and click on **Update Taxonomies**. The newly created taxonomy should be visible. 
+
 # Usage
 When using this Taxonomy, first, you need to be the more restrictive possible. Then, allow the sharing to the Thales Group Community or to specific entities.
 
