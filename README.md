@@ -3,7 +3,7 @@ This taxonomy was designed with the aim of enabling desired sharing and preventi
 # Install the Thales Group Taxonomy
 
 The Thales Group Official taxonomy is now **installed by default** in **MISP v2.4.146**.
-For versions prior to v2.4.146, please install the taxonomy as described in the [here](#Install_from_scratch).
+For versions prior to v2.4.146, please install the taxonomy as described in the [here](#install-from-scratch).
 
 ## [MANDATORY] Activate the taxonomy
 - Doucle click on the **thales_group taxonomy**
