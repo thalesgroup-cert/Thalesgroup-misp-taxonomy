@@ -30,7 +30,7 @@ Then, modify the **Push rules**:
     -  `thales_group:sigpart`
     -  `thales_group:to_block`
 
-## Install from scratch
+## [Required for versions prior to v2.4.146] Install from scratch
 
     cd /var/www/MISP/app/files/taxonomies/
     mkdir thales-group
