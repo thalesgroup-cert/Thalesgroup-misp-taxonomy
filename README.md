@@ -36,7 +36,7 @@ Then, modify the **Push rules**:
     mkdir thales-group
     cd thales-group
     
-Copy the [`thales-group/machinetag.json`](https://github.com/thalesgroup-cert/Thalesgroup-misp-taxonomy/blob/main/thales-group/machinetag.json) file:
+Copy the [`thales-group/machinetag.json`](https://github.com/MISP/misp-taxonomies/blob/main/thales_group/machinetag.json) file:
 
     curl https://raw.githubusercontent.com/MISP/misp-taxonomies/main/thales_group/machinetag.json -o machinetag.json
 
