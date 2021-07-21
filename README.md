@@ -13,6 +13,8 @@ For versions prior to v2.4.146, please install the taxonomy as described in the 
 - Check **Required** checkbox (required for Event publication):
   - When publishing an Event, you will be required to use at least one TAG from the Thales Group taxonomy.
 
+We also recommend to activate the **TLP Taxonomy**.
+
 ## [MANDATORY] Filter Event publication using the taxonomy 
 Go to MISP Web GUI `/servers/index` and click on `Edit icon` on the **MISP Thales Group Internal Server**.
 
