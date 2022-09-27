@@ -35,10 +35,10 @@ Then, modify the **Push rules**:
 ## [Required for versions prior to v2.4.146] Install from scratch
 
     cd /var/www/MISP/app/files/taxonomies/
-    mkdir thales-group
-    cd thales-group
+    mkdir thales_group
+    cd thales_group
     
-Copy the [`thales-group/machinetag.json`](https://github.com/MISP/misp-taxonomies/blob/main/thales_group/machinetag.json) file:
+Copy the [`thales_group/machinetag.json`](https://github.com/MISP/misp-taxonomies/blob/main/thales_group/machinetag.json) file:
 
     curl https://raw.githubusercontent.com/MISP/misp-taxonomies/main/thales_group/machinetag.json -o machinetag.json
 
